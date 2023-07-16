@@ -7,17 +7,17 @@ function App() {
       <nav className="navbar">
         
         <div className="collapse">
-          <ul className="navbar-nav">
             <a href="/" className="nav-head">AppName</a>
-            <li className="nav-item">
+          <ul className="navbar-nav">
+            <ul className="nav-item">
               <a href="/" className="nav-link">Home</a>
-            </li>
-            <li className="nav-item">
+            </ul>
+            <ul className="nav-item">
               <a href="#Vision" className="nav-link">About Us</a>
-            </li>
-            <li className="nav-item">
+            </ul>
+            <ul className="nav-item">
               <a href="#contact" className="nav-link">Contact Us</a>
-            </li>
+            </ul>
           </ul>
         </div>
       </nav>
