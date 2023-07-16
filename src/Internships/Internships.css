@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+.interndetails {
+    transform: translateY(50px);
+}
+
+.interndata {
+    text-align: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 10px;
+}
+
+.interncard {
+    width: 350px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    position: relative;
+}
+
+.internheader {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgb(125, 125, 205);
+    text-align: center;
+    margin: 40px 0px;
+    padding: 10px;
+}
+
+
+
+.internbtn {
+    font-family: 'Mukta Vaani', sans-serif;
+    background-color: rgb(69, 69, 90);
+    color: white;
+    width: max-content;
+    padding: 3px 7px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+}
+
+.internbtn>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.interntitle {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(69, 69, 90);
+    color: white;
+}
+
+.internimg {
+    width: 350px;
+    height: 130px;
+}
+
+.img{
+    width: 250px;
+    height: 130px;
+}
+
+.interndesc {
+    font-family: 'Mukta Vaani', sans-serif;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.makebtnspace {
+    height: 40px;
+}
+
+@media screen and (max-width:500px) {
+    .interncard {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:614px) {
+    .internimg {
+        width: 270px;
+        height: 130px;
+    }
+    .img{
+        width: 170px;
+    }
+}
